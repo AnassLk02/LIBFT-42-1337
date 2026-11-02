@@ -29,7 +29,7 @@ Include the header in your C source file:
 #include "libft.h"
 ```
 
-Compile your program with the library:
+Compile The program with the library:
 
 ```bash
 cc main.c -L. -lft -o program
@@ -52,7 +52,7 @@ The library provides reusable implementations of these functions, with particula
 
 ## Resources
 
-- [C Reference](https://en.cppreference.com/w/c) (https://www.geeksforgeeks.org/)
+- [C Reference](https://www.geeksforgeeks.org/)
 - [Linux Manual Pages](https://man7.org/linux/man-pages/)
 - [GNU GCC Documentation](https://gcc.gnu.org/onlinedocs/)
 - [GNU Make Manual](https://www.gnu.org/software/make/manual/)
