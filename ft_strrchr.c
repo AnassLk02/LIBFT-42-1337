@@ -6,7 +6,7 @@
 /*   By: anel-kam <anel-kam@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 08:36:45 by anel-kam          #+#    #+#             */
-/*   Updated: 2026/11/01 18:02:58 by anel-kam         ###   ########.fr       */
+/*   Updated: 2026/11/02 09:01:54 by anel-kam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char	*ft_strrchr(const char *s, int c)
 			temp_p = (char *)&s[index];
 		index++;
 	}
-	if (s[index] == c)
+	if (s[index] == (char)c)
 		temp_p = (char *)&s[index];
 	return (temp_p);
 }

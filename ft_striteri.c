@@ -6,7 +6,7 @@
 /*   By: anel-kam <anel-kam@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 09:11:49 by anel-kam          #+#    #+#             */
-/*   Updated: 2026/11/01 10:08:38 by anel-kam         ###   ########.fr       */
+/*   Updated: 2026/11/02 09:00:54 by anel-kam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	unsigned int	index;
 
+	if (!s || !f)
+		return ;
 	index = 0;
 	while (s[index])
 	{
